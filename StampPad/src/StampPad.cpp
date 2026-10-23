@@ -121,7 +121,10 @@ void StampPad::padTask() {
     in.connected = conn;
     in.ready = _pad.isReady();
     // Xbox は変化時のみ送ってくるので途絶判定は接続状態に任せる
-    in.fresh = conn && (in.model == GamepadModel::Xbox || now - s.lastReportMs < _cfg.failsafeMs);
+    // now は update() より前に取っているので lastReportMs の方が新しいことがある。
+    // 符号付きで比べないと桁あふれして「途絶」と誤判定し、一瞬だけ入力が全て OFF になる
+    in.fresh = conn && (in.model == GamepadModel::Xbox ||
+                        (int32_t)(now - s.lastReportMs) < (int32_t)_cfg.failsafeMs);
     in.tiltPitch = _pad.tiltPitch();
     in.tiltRoll = _pad.tiltRoll();
     in.yaw = _pad.yaw();
