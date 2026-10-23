@@ -4,5 +4,10 @@
   "description": "Bluetooth gamepad host for ESP32 (Bluedroid): DualShock 4, DualSense, Switch Pro, Joy-Con (Classic) and Xbox Wireless Controller (BLE). Gyro, touchpad, adaptive triggers, rumble, LEDs.",
   "keywords": "ps4, ps5, dualsense, dualshock4, bluetooth, gamepad, gyro, adaptive trigger",
   "frameworks": "arduino",
-  "platforms": "espressif32"
+  "platforms": "espressif32",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kotarou209f-crypto/BTGamepad.git"
+  },
+  "license": "MIT"
 }

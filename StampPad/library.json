@@ -4,5 +4,13 @@
   "description": "M5Stamp Pico gamepad layer on top of BTGamepad: button pairing, status LED, connect effects, multicore pad/control tasks, failsafe.",
   "keywords": "m5stamp, gamepad, robot, bluetooth",
   "frameworks": "arduino",
-  "platforms": "espressif32"
+  "platforms": "espressif32",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kotarou209f-crypto/BTGamepad.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "BTGamepad": "*"
+  }
 }
