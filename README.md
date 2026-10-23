@@ -33,7 +33,7 @@ Bluepad32 の改造ではなく、Arduino-ESP32 に標準で入っている Blue
 ## 使い方 (PlatformIO)
 
 ```sh
-git clone https://github.com/kotarou209f-crypto/BTGamepad.git C:/pio-libs/BTGamepad
+git clone https://github.com/rara-crash/BTGamepad.git C:/pio-libs/BTGamepad
 ```
 
 ```ini

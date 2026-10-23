@@ -7,7 +7,7 @@
   "platforms": "espressif32",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kotarou209f-crypto/BTGamepad.git"
+    "url": "https://github.com/rara-crash/BTGamepad.git"
   },
   "license": "MIT"
 }
