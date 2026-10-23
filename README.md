@@ -1,7 +1,7 @@
 # BTGamepad / StampPad
 
 ESP32 で PS4 / PS5 / Switch / Xbox のコントローラーを Bluetooth で直接つなぐ Arduino ライブラリです。
-Bluepad32 では扱えなかったジャイロ、PS5 のタッチパッドとアダプティブトリガーなども使えます。
+Bluepad32 では扱えなかったPS5 のタッチパッドとアダプティブトリガーなども使えます。
 Bluepad32 の改造ではなく、Arduino-ESP32 に標準で入っている Bluedroid を直接使う実装です。
 
 | ライブラリ | 内容 | 対象ボード |
