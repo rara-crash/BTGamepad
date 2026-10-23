@@ -1,0 +1,8 @@
+{
+  "name": "StampPad",
+  "version": "0.1.0",
+  "description": "M5Stamp Pico gamepad layer on top of BTGamepad: button pairing, status LED, connect effects, multicore pad/control tasks, failsafe.",
+  "keywords": "m5stamp, gamepad, robot, bluetooth",
+  "frameworks": "arduino",
+  "platforms": "espressif32"
+}
